@@ -6,7 +6,8 @@ typedef enum {
   OPERATOR,
   L_PAREN,
   R_PAREN,
-  FUNCTION
+  FUNCTION,
+  UNARY_MINUS
 } TokenType;
 
 typedef struct Token {
